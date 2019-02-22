@@ -41,11 +41,5 @@
     <ClInclude Include="Bank.pb.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="ProtoMsg.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="MsgHead.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>
