@@ -1,0 +1,21 @@
+syntax = "proto2";
+package lpb;
+
+enum MsgType
+{
+	MsgType_None = 0;
+	MsgType_Borrow = 1;
+	MsgType_Return = 2;
+}
+
+message BorrowMoney
+{
+	required uint32 amount = 1;
+	required bytes info = 2;
+}
+
+message ReturnMoney
+{
+	required uint32 amount = 1;
+	required bytes info = 2;
+}

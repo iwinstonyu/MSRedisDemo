@@ -24,12 +24,27 @@
     <ClCompile Include="RedisMgr.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Bank.pb.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="win32fixes.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="RedisMgr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleQueueStd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Bank.pb.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ProtoMsg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MsgHead.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
